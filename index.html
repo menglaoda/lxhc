@@ -10,6 +10,10 @@
 //			}else{
 //				alert("不支持");
 //			}
+setInterval(function(){
+	window.applicationCache.update();
+},5000)
+console.log(window.applicationCache.status);
 		</script>
 	</head>
 	<body>
