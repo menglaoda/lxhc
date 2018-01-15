@@ -1,0 +1,17 @@
+CACHE MAINFEST
+#写在文件第一行，用来声明这是一个manifest文件（必写）
+
+CACHE 
+#设置后面的文件需要缓存，一行一个文件（必写）
+css/index.css
+img/car.jpg
+img/lunzi.png
+
+NETWORK
+#设置后面的文件为不缓存（即必须要连接服务器才能访问，可选）
+
+FALLBACK
+#获取不到资源时的备选路径，如index.html访问失败，则返回404页面（格式如下示例，可选）
+css/index.css
+img/car.jpg
+img/lunzi.png
