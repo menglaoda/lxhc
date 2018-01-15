@@ -6,6 +6,7 @@ CACHE
 css/index.css
 img/car.jpg
 img/lunzi.png
+huancun2.html
 
 NETWORK
 #设置后面的文件为不缓存（即必须要连接服务器才能访问，可选）
